@@ -1,6 +1,6 @@
 .header-container{
     position: relative;
-    top: 2rem;
+    top: 4rem;
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -8,7 +8,6 @@
     align-items: center;
     max-height: 100%;
     
-   
 }
 .info{
     margin-left: 4rem;
@@ -40,8 +39,7 @@ margin: 1rem 0 2rem;
 .details-container{
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 5% 62%);
     border-radius: 2rem;
-    /* padding: 4.5rem; */
-    margin-right: 3rem ;
+    margin-right: 4rem ;
     padding-top: 3.5rem;
     padding-left: 5rem;
     padding-right: 3rem;
@@ -49,6 +47,14 @@ margin: 1rem 0 2rem;
     
     background-color: var(--color-green);
 }
-button .btn-secundary{
+.details-container h4{
+    font-family: 'Abhaya Libre', serif;;
+
+}
+.details-container p{
+    font-family: 'Poppins', sans-serif;
+
+}
+button .btn-secundary {
     font-family: 'Poppins', sans-serif;
 }
