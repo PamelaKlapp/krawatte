@@ -1,0 +1,52 @@
+import React from 'react';
+import { CiSearch } from 'react-icons/ci';
+import { CiShoppingCart } from 'react-icons/ci';
+import { BiMenu } from 'react-icons/bi';
+import { AiOutlineClose } from 'react-icons/ai';
+import './Navbar.css'
+
+const Navbar = () => {
+  return (
+    <nav>
+      <div className="container">
+        <a href="">KRAWATTE</a>
+
+        <ul>
+          <li>
+            <a href="" className='active'>Home</a>
+          </li>
+          <li>
+            <a href="">Krawatten</a>
+          </li>
+          <li>
+            <a href="">Company</a>
+          </li>
+          <li>
+            <a href="">FAQs</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+        </ul>
+
+        <div className="icons">
+          <a href="">
+            <CiSearch />
+          </a>
+          <a href="">
+            <CiShoppingCart />
+          </a>
+        </div>
+
+        <button id="menu-btn">
+          <BiMenu />
+        </button>
+        <button id="close-menu-btn">
+          <AiOutlineClose />
+        </button>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

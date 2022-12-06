@@ -1,0 +1,36 @@
+.header-container{
+    position: relative;
+    top: 8rem;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 30rem auto 24rem;
+    align-items: center;
+    max-height: 100%;
+    
+   
+}
+.info{
+    margin-left: 4rem;
+}
+
+.info .delivery{
+    background-color: var(--color-pink);
+    width: max-content;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    color: var(--color-black);
+    margin-bottom: 1.5rem;
+
+    
+}
+.info p{
+font-size: 1.3rem;
+font-weight: 500;
+margin: 1rem 0 2rem;
+}
+
+.icon-truck{
+    padding: 0.5rem;
+    display: inline-block;
+}
