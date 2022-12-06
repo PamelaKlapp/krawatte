@@ -1,11 +1,12 @@
 nav{
-    width: 100vw;
+    width: 100%;
+    background-color: var(--color-orange);
     height: 5rem;
     display: grid;
     place-items: center;
     position: fixed;
     z-index: 2;
-    background-color: var(--color-orange);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.14);
 }
 nav button{
     display: none;
