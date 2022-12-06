@@ -28,7 +28,7 @@ const Header = () => {
 
       <div className="details">
         <div className="details-container">
-          <h4>Krawatte Toto</h4>
+          <h3>Krawatte Toto</h3>
           <br />
           <p>Die perfekte Krawatte, um aufzufallen und der Mittelpunkt der Party zu sein.</p>
           <br />
