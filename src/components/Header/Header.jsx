@@ -5,7 +5,8 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div className="header-container">
+    <div className="header-container container">
+      
       <div className="info">
         <div className="delivery">
           <small>Kostenlose Lieferung weltweit</small>
