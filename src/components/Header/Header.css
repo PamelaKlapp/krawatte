@@ -1,17 +1,13 @@
 .header-container{
     position: relative;
-    top: 4rem;
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 30rem auto 24rem;
+    grid-template-columns: 27rem auto 20rem;
     align-items: center;
     max-height: 100%;
-    
 }
-.info{
-    margin-left: 4rem;
-}
+
 
 .info .delivery{
     background-color: var(--color-pink);
@@ -39,7 +35,6 @@ margin: 1rem 0 2rem;
 .details-container{
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 5% 62%);
     border-radius: 2rem;
-    margin-right: 4rem ;
     padding-top: 3.5rem;
     padding-left: 5rem;
     padding-right: 3rem;
