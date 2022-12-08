@@ -8,7 +8,8 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <nav>
-      <div className="container">
+      <div className="nav_container container">
+        
         <a href="">KRAWATTE</a>
 
         <ul>
