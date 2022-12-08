@@ -12,21 +12,22 @@ nav button{
     display: none;
 }
 
-nav .container{
+.nav_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav .container ul{
+.nav_container ul{
     display: flex;
     gap: 3rem;
 }
 
-nav .container ul a{
+.nav_container ul a{
     padding: 0 0 0.3rem;
+    
 }
-nav .container ul a.active{
+.nav_container ul a.active{
     border-bottom: 6px solid var(--color-grey);
 }
 nav a:hover{
