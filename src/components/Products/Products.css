@@ -1,21 +1,19 @@
 .products-container{
-    top: -5rem;
     height: 100vh;
     width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-    justify-content: center;
     background-color: aqua;
 }
-.products-container section{
-    display: grid;
-    grid-template-columns: 1.5fr 3fr 1.5fr;
+
+.products{
+    background-color: blue;
+    
 }
 
-article{
+.products-intro{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 7rem;
-    padding-bottom: 4rem;
-}  
+    grid-template-columns: 3fr 6fr 3fr;
+}
+
+.products_text{
+    text-align: center;
+}
