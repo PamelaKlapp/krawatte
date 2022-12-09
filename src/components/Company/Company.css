@@ -1,0 +1,9 @@
+.company_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.right-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
