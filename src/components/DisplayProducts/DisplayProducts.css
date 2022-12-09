@@ -1,6 +1,4 @@
 .displayP-container {
-  display: grid;
-  grid-template-columns: 0.5fr 10fr 0.5fr;
   margin-top: 5rem;
 }
 #app { height: 100% }
@@ -47,6 +45,14 @@ body {
   object-fit: cover;
 }
 article{
-    display: grid;
-    grid-template-columns: 60% 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+  color: var(--color-pink);
+}
+.swiper-pagination-bullet{
+  color: var(--color-gray)
 }
