@@ -1,4 +1,5 @@
 import React from 'react';
+import DisplayProducts from '../DisplayProducts/DisplayProducts';
 import Product from '../Product/Product';
 import './Products.css';
 
@@ -25,6 +26,7 @@ const Products = () => {
         </div>
       </section>
       <Product />
+      <DisplayProducts/>
     </div>
   );
 };
