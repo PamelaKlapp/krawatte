@@ -3,7 +3,7 @@ import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
 import Products from './components/Products/Products'
 import Company from './components/Company/Company'
-import DisplayProducts from './components/DisplayProducts/DisplayProducts'
+import FAQs from './components/FAQs/FAQs'
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
    <Header/>
    <Products/>
    <Company/>
+   <FAQs/>
    </>
 
     
