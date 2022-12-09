@@ -1,0 +1,33 @@
+.FAQ-container h2 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.content > .question {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  gap: 1.4rem;
+  height: fit-content;
+  background-color: var(--color-green);
+  cursor: pointer;
+}
+.content > .question h4{
+    font-size: 1.5rem;
+}
+
+.content > .question p{
+  color: var(--color-grey);
+  margin: 1rem;
+    display: none;
+}
+
+.content > .open p{
+    display: block;
+}
