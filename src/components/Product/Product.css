@@ -1,0 +1,14 @@
+.container_product {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+}
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .product p {
+  width: 80%;
+} */
