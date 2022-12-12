@@ -1,0 +1,22 @@
+.footer_container{
+    background-color: var(--color-orange);
+}
+.footer_container >.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    margin-top: 7rem;
+}
+.logo{
+    font-size: 2rem;
+}
+
+.footer_container  h4{
+    color: var(--color-grey);
+    padding-bottom: 1rem;
+}
+
+.footer_container .f1> p{
+    padding: 1rem 0;
+}
