@@ -3,10 +3,12 @@ import DisplayProducts from '../DisplayProducts/DisplayProducts';
 import Product from '../Product/Product';
 import './Products.css';
 
+
 const Products = () => {
   return (
     <div id='krawatte' className="products-container container">
       <section className="products">
+
         <div className="products-intro">
           <div></div>
           <div className="products_text">

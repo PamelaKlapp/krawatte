@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <div id='home' className="header-container container">
+    <section id='home' className="header-container container">
       
       <div className="info">
         <div className="delivery">
@@ -38,7 +38,7 @@ const Header = () => {
           <button className='btn btn-secundary'>ZUM WARENKORB</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

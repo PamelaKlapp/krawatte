@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav>
       <div className="nav_container container">
         
-        <a href="">KRAWATTE</a>
+        <a href="" className='logo'>KRAWATTE</a>
 
         <ul>
           <li>
