@@ -6,7 +6,7 @@ import './Products.css';
 
 const Products = () => {
   return (
-    <div id='krawatte' className="products-container container">
+    <main id='krawatte' className="products-container container">
       <section className="products">
 
         <div className="products-intro">
@@ -26,10 +26,10 @@ const Products = () => {
           </div>
           <div></div>
         </div>
-      </section>
       <Product />
       <DisplayProducts/>
-    </div>
+      </section>
+    </main>
   );
 };
 
