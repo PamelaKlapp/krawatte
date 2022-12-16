@@ -1,5 +1,5 @@
 .container_product {
-  margin-top: 5rem;
+  margin-top: 3rem;
   display: grid;
   grid-template-columns: 2fr 8fr 2fr;
 }
@@ -9,6 +9,4 @@
   justify-content: center;
 }
 
-/* .product p {
-  width: 80%;
-} */
+
