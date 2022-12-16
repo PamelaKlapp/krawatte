@@ -1,4 +1,14 @@
+
 .company_container{
+  padding-top: 6rem;
+}
+.company_title{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.content{
+  padding-top: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
