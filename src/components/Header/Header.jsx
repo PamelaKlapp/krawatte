@@ -5,11 +5,11 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <section id='home' className="header-container container">
+    <header id='home' className="header-container container">
       
       <div className="info">
         <div className="delivery">
-          <small>Kostenlose Lieferung weltweit</small>
+          <small className='delivery_text'>Kostenlose Lieferung weltweit</small>
           <span className="icon-truck">
             <CiDeliveryTruck />
           </span>
@@ -17,7 +17,7 @@ const Header = () => {
         <h1>Original recyclen Krawatten. </h1>
         <p>Jede Krawatte wird aus wiederverwendeten Stoffen hergestellt.</p>
         <div className="cta">
-          <a href="" className="btn btn-primary">
+          <a href="#krawatte" className="btn btn-primary">
             Mehr Krawatten
           </a>
         </div>
@@ -38,7 +38,7 @@ const Header = () => {
           <button className='btn btn-secundary'>ZUM WARENKORB</button>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 
