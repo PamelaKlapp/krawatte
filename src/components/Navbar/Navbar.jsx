@@ -20,13 +20,13 @@ const Navbar = () => {
             <a href="#krawatte">Krawatten</a>
           </li>
           <li>
-            <a href="#company">Company</a>
+            <a href="#company">Über uns</a>
           </li>
           <li>
             <a href="#FAQ">FAQs</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Kontakt</a>
           </li>
         </ul>
 
