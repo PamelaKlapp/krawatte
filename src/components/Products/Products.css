@@ -1,13 +1,17 @@
 .products-container{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
+    padding-top: 5rem;
 }
 
 .products-intro{
     display: grid;
-    grid-template-columns: 3fr 6fr 3fr;
+    grid-template-columns: 2fr 8fr 2fr;
 }
 
 .products_text{
+    text-align: justify;
+}
+.products_text h2{
     text-align: center;
 }
