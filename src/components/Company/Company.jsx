@@ -4,12 +4,12 @@ import CompanyImg from '../../assets/krawatte7.png';
 
 const Company = () => {
   return (
-    <section id="company" className="company_container container">
-      <div className="company_title">
+    <section id="company" className="company-container container">
+      <div className="company-title">
         <h4>Wir sind..</h4>
         <h2>Die neue Ära der Mode</h2>
       </div>
-      <div className="content">
+      <div className="content-company">
         <div className="left-side">
           <div className="company-img">
             <img src={CompanyImg} alt="" />
