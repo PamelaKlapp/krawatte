@@ -1,0 +1,51 @@
+section#home div.home-content{
+    position: relative;
+    height: 100%;
+    padding-top: 9rem;
+    padding-bottom: 2rem;
+}
+
+.home-content-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    align-items: center; 
+}
+
+.home-img img{
+    width: 100%;
+    align-items: start;
+}
+
+.cta{
+    margin-top: 3rem;
+}
+
+section#home div.delivery{
+    width: max-content;
+    
+    color: var(--color-black);
+}
+
+.delivery-text{
+    font-size: 1rem;
+}
+.info p{
+font-size: 1.3rem;
+font-weight: 500;
+margin: 1rem 0 2rem;
+}
+
+.icon-truck{
+    position: relative;
+    top: 0.4rem;
+    padding: 0.5rem;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+
+
+button .btn-secundary {
+    font-family: 'Poppins', sans-serif;
+}
