@@ -1,12 +1,5 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-import Img2 from '../../assets/krawatte7.png';
-import Img3 from '../../assets/krawatte8.png';
-import Img4 from '../../assets/krawatte9.png';
-import Img5 from '../../assets/krawatte10.png';
-import Img6 from '../../assets/krawatte11.png';
-import Img1 from '../../assets/krawatte1.png';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -15,15 +8,16 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper';
 
 import './DisplayProducts.css';
+import data from '../../data';
 
 const DisplayProducts = () => {
   return (
     <section id="displayP-container">
       <div></div>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        slidesPerGroup={3}
+        slidesPerView={1}
+        spaceBetween={10}
+        slidesPerGroup={1}
         loop={true}
         loopFillGroupWithBlank={true}
         pagination={{
@@ -34,75 +28,24 @@ const DisplayProducts = () => {
         className="mySwiper"
       >
         
-        <SwiperSlide>
-          <article>
-            <div className="image">
-              <img src={Img1} alt="" />
-            </div>
-            <div className="product-info">
-              <h4>Toto</h4>
-            </div>
-          </article>
-        </SwiperSlide>
-        <SwiperSlide>
-          <article>
-            <div className="image">
-              <img src={Img2} alt="" />
-            </div>
-            <div className="product-info">
-              <h4>Dorothy</h4>
-              
-            </div>
-          </article>
-        </SwiperSlide>
-        <SwiperSlide>
-          <article>
-            <div className="image">
-              <img src={Img3} alt="" />
-            </div>
-            <div className="product-info">
-              <h4>Le Fleur</h4>
-              
-            </div>
-          </article>
-        </SwiperSlide>
-        <SwiperSlide>
-          <article>
-            <div className="image">
-              <img src={Img4} alt="" />
-            </div>
-            <div className="product-info">
-              <h4>Renny</h4>
-              
-            </div>
-          </article>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <article>
-            <div className="image">
-              <img src={Img5} alt="" />
-            </div>
-            <div className="product-info">
-              <h4>Nannu</h4>
-
-            </div>
-          </article>
-        </SwiperSlide>
-        <SwiperSlide>
-          <article>
-            <div className="image">
-              <img src={Img6} alt="" />
-            </div>
-            <div className="product-info">
-              <h4>Le Azule</h4>
-            </div>
-          </article>
-        </SwiperSlide>
-        
-        
-        
-        
+            <div className='carousel'>{data.products.map(product => (
+              <SwiperSlide className='swiper'>
+                <div className='carousel_item' key={product.slug}>
+                  <div className='carousel_img'>
+                  <img src={product.image} alt={product.name} />
+                  </div>
+                  <div className='carousel_text'>
+                  <h2>{product.name}</h2>
+                  <p>{product.description}</p>
+                  <h4>€{product.price}</h4>
+                
+                  <button className='btn btn-primary'>Zum Warenkorb</button>
+                  </div>
+                  
+                </div>
+                </SwiperSlide>
+              ) )}</div>
+            
       </Swiper>
       <div></div>
     </section>
