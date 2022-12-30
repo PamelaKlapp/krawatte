@@ -1,17 +1,10 @@
-.products-container{
+section#products div.products-container{
     height: 100%;
-    width: 100vw;
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 
-.products-intro{
-    display: grid;
-    grid-template-columns: 2fr 8fr 2fr;
-}
-
-.products_text{
-    text-align: justify;
-}
-.products_text h2{
-    text-align: center;
+.product-display{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.14);
+    border-radius: 25px;
 }
