@@ -1,29 +1,6 @@
 #displayP-container {
   margin-top: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 10fr 1fr;
-  padding: 0 2rem;
 }
-#app { height: 100% }
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
-}
-article {
-  display: flex;
-  flex-direction: column;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-}
-
 
 /*swiper*/
 .swiper {
@@ -61,6 +38,28 @@ article {
 .swiper-button-prev::after, .swiper-button-next::after{
   color: var(--color-pink);
 }
+
 .swiper-pagination-bullet{
   color: var(--color-gray)
+}
+
+.swiper{
+
+  padding: 2rem;
+  padding-top: 1rem;
+}
+
+.carousel_item{
+  
+  height: 100%;
+  display: grid;
+  grid-template-columns: 2.5fr 1.8fr;
+  gap: 1rem;
+}
+.carousel_item img{
+  width: 100%;
+}
+
+.carousel_text, button{
+  margin-top: 2rem;
 }
