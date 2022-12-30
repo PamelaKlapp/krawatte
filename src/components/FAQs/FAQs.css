@@ -1,33 +1,39 @@
-.FAQ-container h2 {
+section#faq h2 {
   text-align: center;
   padding-top: 6rem;
+  padding-bottom: 3rem;
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  width: 60%;
+  margin: auto;
 }
 
-.content > .question {
-  padding: 2rem;
-  border-radius: 0.5rem;
+.question {
+  padding: 1rem;
+  border-radius: 0.8rem;
   display: flex;
   gap: 1.4rem;
   height: fit-content;
-  background-color: var(--color-green);
+  background-color: white;
   cursor: pointer;
+  margin-bottom: 1rem;
 }
-.content > .question h4{
+.question h4{
     font-size: 1.5rem;
 }
 
-.content > .question p{
-  color: var(--color-grey);
+.question p{
+  color: var(--color-gray);
   margin: 1rem;
-    display: none;
+  
 }
 
-.content > .open p{
+.detail p.open{
     display: block;
 }
+
+.detail p{
+  display: none;
+}
+
