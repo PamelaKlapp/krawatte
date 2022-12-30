@@ -6,7 +6,7 @@ nav{
     place-items: center;
     position: fixed;
     z-index: 2;
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.14);
+    /* box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.14); */
 }
 nav button{
     display: none;
@@ -37,5 +37,5 @@ nav a:hover{
 nav .icons{
     display: flex;
     gap: 2rem;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
