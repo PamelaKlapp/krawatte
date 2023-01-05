@@ -12,22 +12,22 @@ nav button{
     display: none;
 }
 
-.nav_container{
+.nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav_container ul{
+.nav-container ul{
     display: flex;
     gap: 3rem;
 }
 
-.nav_container ul a{
+.nav-container ul a{
     padding: 0 0 0.3rem;
     
 }
-.nav_container ul a.active{
+.nav-container ul a.active{
     border-bottom: 6px solid var(--color-grey);
 }
 nav a:hover{
@@ -37,5 +37,69 @@ nav a:hover{
 nav .icons{
     display: flex;
     gap: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
+
+/*======================== MEDIA QUERIES ==========================*/
+
+/*============== MEDIUM DEVICES ===================*/
+@media screen and (max-width: 1024px) {
+    .nav-container{
+        background-color: pink;
+    }
+    nav .container .logo {
+        margin-left: 1rem;
+      }
+    
+      nav .container ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        padding-top: 2rem;
+        width: 16rem;
+        height: 100vh;
+        background-color: var(--color-orange);
+        box-shadow: 1 rem 0 2rem rgba(0, 0, 0, 0.2);
+        z-index: 3;
+        
+      }
+    
+      nav .container ul li {
+        height: 2rem;
+        display: flex;
+        align-items: center;
+      }
+    
+      nav .container ul li a {
+        width: 100%;
+        padding: 0 0 1rem 2rem;
+      }
+      nav .container ul li a:hover {
+        padding-left: 3rem;
+      }
+      nav button {
+        display: inline-block;
+        cursor: pointer;
+        background: transparent;
+        color: var(--color-black);
+        padding-right: 2rem;
+        font-size: 1.6rem;
+      }
+    
+      nav button#close-menu-btn {
+        display: none;
+      }
+
+
+}
+
+/*================ SMALL DEVICES ==================*/
+@media screen and (max-width: 600px) {
+    .nav-container {
+        background-color: yellow;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  
