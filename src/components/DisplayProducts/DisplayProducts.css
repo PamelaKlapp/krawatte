@@ -39,8 +39,15 @@
   color: var(--color-pink);
 }
 
+.swiper-button-prev::after{
+  padding-left: 4rem;
+}
+.swiper-button-next::after{
+  padding-right: 4rem;
+}
+
 .swiper-pagination-bullet{
-  color: var(--color-gray)
+  color: var(--color-pink)
 }
 
 .swiper{
