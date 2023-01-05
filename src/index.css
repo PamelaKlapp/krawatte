@@ -130,48 +130,6 @@ p {
   section {
     overflow-x: hidden;
   }
-  nav .container .logo {
-    margin-left: 1rem;
-  }
-
-  nav .container ul {
-    position: fixed;
-    top: 0;
-    left: 0;
-    flex-direction: column;
-    width: 16rem;
-    height: 100vh;
-    background-color: var(--color-orange);
-    box-shadow: 1 rem 0 2rem rgba(0, 0, 0, 0.2);
-    z-index: 3;
-    display: none;
-  }
-
-  nav .container ul li {
-    height: 4rem;
-    display: flex;
-    align-items: center;
-  }
-
-  nav .container ul li a {
-    width: 100%;
-    padding: 0 0 1rem 2rem;
-  }
-  nav .container ul li a:hover {
-    padding-left: 3rem;
-  }
-  nav button {
-    display: inline-block;
-    cursor: pointer;
-    background: transparent;
-    color: var(--color-black);
-    margin-right: 1rem;
-    font-size: 1.6rem;
-  }
-
-  nav button#close-menu-btn {
-    display: none;
-  }
 
   .header-container{
     display: grid;
