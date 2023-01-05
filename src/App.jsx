@@ -5,6 +5,7 @@ import Products from './components/Products/Products';
 import Company from './components/Company/Company';
 import FAQs from './components/FAQs/FAQs';
 import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/Contact';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Products />
         <Company />
         <FAQs />
+        <Contact/>
       </main>
       <footer>
         <Footer />
