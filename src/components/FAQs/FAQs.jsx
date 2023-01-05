@@ -5,6 +5,8 @@ import { AiOutlineMinus } from 'react-icons/ai';
 import data from '../../data';
 
 const FAQs = () => {
+  
+
   return (
     <section id="faq" className="FAQ-container container">
       <h2>Frequently Asked Questions</h2>
