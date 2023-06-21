@@ -6,6 +6,7 @@ import Company from './components/Company/Company';
 import FAQs from './components/FAQs/FAQs';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import Holi from './components/holi'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Contact/>
       </main>
       <footer>
+        <Holi/>
         <Footer />
       </footer>
     </>
